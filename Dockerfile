@@ -1,5 +1,5 @@
-FROM nginx:latest
-LABEL version="1.2.0" \
+FROM nginx:1.16.0
+LABEL version="v2.1" \
     description="this is portal server. listen on 5001"
 
 
