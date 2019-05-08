@@ -4,7 +4,7 @@ LABEL version="1.2.0" \
 
 
 COPY index.html /usr/share/nginx/html
-COPY static/ /user/share/nginx
+COPY static/. /user/share/nginx/static
 COPY default.conf /etc/nginx/conf.d
 EXPOSE 5001
 
